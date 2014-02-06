@@ -2,7 +2,7 @@
 
 # Copy dotfiles from dot/
 for item in $(find dot ! -ipath '**/.*'); do
-target=~/`echo $item | sed -e 's@dot/*@.@'`
+target=~/`echo $item | sed -e 's@dot/*@.bash/@'`
 
   if [ -d $item ]; then
 test -d $target || mkdir -p $target
