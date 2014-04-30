@@ -1,0 +1,40 @@
+[alias]
+  b = branch
+  di = diff
+  cob = checkout -b
+  cm = commit -m
+  co = checkout
+  p = pull
+  st = status
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+
+[color "status"]
+  added = green
+  changed = red
+
+[github]
+  user = jPaolantonio
+
+[push]
+  default = tracking
+
+[rebase]
+   autosquash = true
+
+[user]
+  name = James Paolantonio
+  email = james@howaboutwe.com
+
+[core]
+  editor = vim -f
+
+[mergetool]
+  keepBackup = false
+
+[merge]
+  tool = opendiff
+
